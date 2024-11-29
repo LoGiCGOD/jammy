@@ -22,5 +22,5 @@ jobs:
 
       
       - name: view the image
-        run: docker ps
+        run: docker image ls
       
