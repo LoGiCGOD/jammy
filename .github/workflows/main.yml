@@ -20,5 +20,7 @@ jobs:
         name: Set up Docker Buildx
         run: docker build .
 
-        
+      -
+        name: view the image
+        run: docker ps
       
